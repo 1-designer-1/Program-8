@@ -22,11 +22,11 @@ namespace Program_8
         private string _name;
         private string _middleName;
 
-        public new string Name { get => _name; set => _name = value; }
+        public string Name { get => _name; set => _name = value; }
 
         public string MiddleName { get => _middleName; set => _middleName = value; }
 
-        public new string Print()
+        public  string Print()
         {
             return "Имя ребенка: " + Name + " Отчество " + MiddleName;
         }
