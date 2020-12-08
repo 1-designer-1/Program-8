@@ -144,12 +144,13 @@
             this.заполнитьToolStripMenuItem.Name = "заполнитьToolStripMenuItem";
             this.заполнитьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.заполнитьToolStripMenuItem.Text = "Заполнить";
+            this.заполнитьToolStripMenuItem.Click += new System.EventHandler(this.заполнитьToolStripMenuItem_Click);
             // 
             // отчиститьToolStripMenuItem
             // 
             this.отчиститьToolStripMenuItem.Name = "отчиститьToolStripMenuItem";
             this.отчиститьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.отчиститьToolStripMenuItem.Text = "Отчистить";
+            this.отчиститьToolStripMenuItem.Text = "Очистить";
             // 
             // button1
             // 
@@ -159,6 +160,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Заполнить";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.заполнитьToolStripMenuItem_Click);
             // 
             // button2
             // 
@@ -177,6 +179,7 @@
             this.button3.TabIndex = 8;
             this.button3.Text = "О программе";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.оПрограммеToolStripMenuItem_Click);
             // 
             // Form1
             // 

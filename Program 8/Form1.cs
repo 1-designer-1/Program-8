@@ -26,6 +26,12 @@ namespace Program_8
                " Классы должны включать конструкторы. Сравнение производить по фамилии.\n", "Задание", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        private void заполнитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Father father = new Father();
+            Children children = new Children();
+            father.Name = Convert.ToString(textBox1.Text);
+            MessageBox.Show(father.Print());
 
 
 
@@ -33,7 +39,6 @@ namespace Program_8
 
 
 
-
-
+        }
     }
 }
