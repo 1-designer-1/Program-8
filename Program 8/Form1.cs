@@ -36,7 +36,7 @@ namespace Program_8
             children.MiddleName = Convert.ToString(textBox3.Text);
             MessageBox.Show(children.Print());
 
-
+            
         }
 
         private void отчиститьToolStripMenuItem_Click(object sender, EventArgs e)
