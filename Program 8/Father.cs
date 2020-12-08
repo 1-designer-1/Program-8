@@ -28,7 +28,7 @@ namespace Program_8
 
         public new string Print()
         {
-            return "Имя ребенка: " + Name + " Отчество " + MiddleName;
+            return "Имя ребенка: " + Name + " Отчество: " + MiddleName;
         }
 
 

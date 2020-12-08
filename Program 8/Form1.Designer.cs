@@ -151,6 +151,7 @@
             this.отчиститьToolStripMenuItem.Name = "отчиститьToolStripMenuItem";
             this.отчиститьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.отчиститьToolStripMenuItem.Text = "Очистить";
+            this.отчиститьToolStripMenuItem.Click += new System.EventHandler(this.отчиститьToolStripMenuItem_Click);
             // 
             // button1
             // 
@@ -170,6 +171,7 @@
             this.button2.TabIndex = 7;
             this.button2.Text = "Очитить";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.отчиститьToolStripMenuItem_Click);
             // 
             // button3
             // 
@@ -188,6 +190,7 @@
             this.ClientSize = new System.Drawing.Size(404, 172);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";

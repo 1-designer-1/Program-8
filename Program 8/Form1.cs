@@ -32,12 +32,18 @@ namespace Program_8
             Children children = new Children();
             father.Name = Convert.ToString(textBox1.Text);
             MessageBox.Show(father.Print());
+            children.Name = Convert.ToString(textBox2.Text);
+            children.MiddleName = Convert.ToString(textBox3.Text);
+            MessageBox.Show(children.Print());
 
 
+        }
 
-
-
-
+        private void отчиститьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
 
         }
     }
